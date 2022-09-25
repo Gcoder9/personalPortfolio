@@ -3,14 +3,16 @@ import {VerticalTimeline, VerticalTimelineElement} from 'react-vertical-timeline
 import 'react-vertical-timeline-component/style.min.css';
 import SchoolIcon from "@material-ui/icons/School"
 import WorkIcon from '@mui/icons-material/Work';
+import Navbar from '../components/Navbar';
 
 function Experience() {
     return (
         <div className='experience'>
-            <VerticalTimeline lineColor='#3e497a'>
+            <Navbar/>
+            <VerticalTimeline lineColor=' #c6c84d'>
                 <VerticalTimelineElement className='vertical-timeline-elment--education'
                 date="2008 - 2012"
-                iconStyle={{background: "#3e497a", color: "#fff"}}
+                iconStyle={{background: "black", color: "yellow"}}
                 icon={<SchoolIcon/>}
                 >
                     <h3 className='vertical-timeline-element-title'>
@@ -21,7 +23,7 @@ function Experience() {
 
                 <VerticalTimelineElement className='vertical-timeline-elment--education'
                 date="May 2022 - August 2022"
-                iconStyle={{background: "#3e497a", color: "#fff"}}
+                iconStyle={{background: "black", color: "yellow"}}
                 icon={<SchoolIcon/>}
                 >
                     <h3 className='vertical-timeline-element-title'>
@@ -34,7 +36,7 @@ that teaches you the skills needed to be a full stack engineer.</p>
 
                 <VerticalTimelineElement className='vertical-timeline-elment--education'
                 date="Feb 2013 - Nov 2013"
-                iconStyle={{background: "#3e497a", color: "#fff"}}
+                iconStyle={{background: "black", color: "yellow"}}
                 icon={<WorkIcon/>}
                 >
                     <h3 className='vertical-timeline-element-title'>
@@ -50,7 +52,7 @@ multiple listing services to maximize exposure.</p>
 
                 <VerticalTimelineElement className='vertical-timeline-elment--education'
                 date="March 2014 - July 2014"
-                iconStyle={{background: "#3e497a", color: "#fff"}}
+                iconStyle={{background: "black", color: "yellow"}}
                 icon={<WorkIcon/>}
                 >
                     <h3 className='vertical-timeline-element-title'>
@@ -63,7 +65,7 @@ shrubs, edging, planting, aerating, laying sod, and leaf-blowing</p>
 
                 <VerticalTimelineElement className='vertical-timeline-elment--education'
                 date="August 2014 - October 2015"
-                iconStyle={{background: "#3e497a", color: "#fff"}}
+                iconStyle={{background: "black", color: "yellow"}}
                 icon={<WorkIcon/>}
                 >
                     <h3 className='vertical-timeline-element-title'>
